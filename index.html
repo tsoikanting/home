@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>菁才知光學會 - 官方網站</title>
+    <style>
+        /* ================= 1. 全域初始化 ================= */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "PingFang TC", "Microsoft JhengHei", sans-serif;
+        }
+
+        body {
+            background-color: #f8f9fa;
+            color: #333333;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* ================= 2. 頁首導覽列 ================= */
+        header {
+            background-color: #0f2c59; /* 深藍色，代表穩重、專業 */
+            color: #ffffff;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 30px;
+        }
+
+        nav ul li a {
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #dac0a3; /* 霧金/香檳金，增添質感 */
+        }
+
+        /* ================= 3. 主視覺橫幅 (Hero Section) ================= */
+        .hero {
+            /* 這裡已將原本的網路網址，改為直接調用同資料夾下的 banner.jpg */
+            background: linear-gradient(rgba(15, 44, 89, 0.85), rgba(15, 44, 89, 0.85)), 
+                        url('photos/home.jpg') no-repeat center center/cover;
+            color: #ffffff;
+            padding: 120px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto 30px;
+            color: #eadbc8;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #dac0a3;
+            color: #0f2c59;
+            padding: 12px 30px;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #eadbc8;
+            transform: translateY(-2px);
+        }
+
+        /* ================= 4. 公會簡介 ================= */
+        .about {
+            padding: 80px 0;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: 30px;
+            color: #0f2c59;
+            margin-bottom: 15px;
+            position: relative;
+            padding-bottom: 15px;
+        }
+
+        /* 底部的裝飾線，讓標題更正式 */
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background-color: #dac0a3;
+        }
+
+        .about p {
+            max-width: 800px;
+            margin: 30px auto 0;
+            font-size: 16px;
+            color: #666666;
+            text-align: justify;
+        }
+
+        /* ================= 5. 核心服務 / 業務範疇 ================= */
+        .services {
+            padding: 80px 0;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            padding: 40px 30px;
+            border-radius: 4px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-top: 4px solid #0f2c59; /* 卡片頂部深藍線條 */
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: #0f2c59;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+
+        .card p {
+            color: #666666;
+            font-size: 14px;
+        }
+
+        /* ================= 6. 頁尾 ================= */
+        footer {
+            background-color: #1c1c1c;
+            color: #aaaaaa;
+            padding: 40px 0;
+            font-size: 14px;
+        }
+
+        footer .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .footer-info p {
+            margin-bottom: 5px;
+        }
+
+        .footer-copyright {
+            color: #666666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">菁才知光學會</div>
+            <nav>
+                <ul>
+                    <li><a href="#">首頁</a></li>
+                    <li><a href="#">關於公會</a></li>
+                    <li><a href="#">最新消息</a></li>
+                    <li><a href="#">會員服務</a></li>
+                    <li><a href="#">聯絡我們</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>凝聚學會力量 · 引領時代未來</h1>
+            <p>本會致力於度卡蹭。</p>
+            <a href="#" class="btn">申請入會</a>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">學會簡介</h2>
+            <p>本學會成立於西元 2026 年，為依法設立之非營利學會。本會以協調同業關係、增進共同利益、開拓國內外市場、並以推進學術提升為宗旨。歷年來積極配合政府政策，反映會員意見，成為政府與產業間最堅實的溝通橋樑。</p>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center;">服務範疇</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>學術交流</h3>
+                    <p>提供學術交流環境。</p>
+                </div>
+                <div class="card">
+                    <h3>課程交互</h3>
+                    <p>教學新思想</p>
+                </div>
+                <div class="card">
+                    <h3>戀愛交友</h3>
+                    <p>致力於推進人類生育計劃</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <p><strong>菁才知光學會</strong></p>
+                <p>地址：北京零環</p>
+                <p>電話：(888) XXXX-XXXX | 信箱：x@xxx.xxx</p>
+            </div>
+            <div class="footer-copyright">
+                &copy; 2026 菁才知光學會. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
