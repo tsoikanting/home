@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>菁才知光學會 - 官方網站</title>
+    <title id="web-title">菁才知光學會 - 官方網站</title>
     <style>
         /* ================= 1. 全域初始化 ================= */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: "PingFang TC", "Microsoft JhengHei", sans-serif;
+            font-family: "PingFang TC", "Microsoft JhengHei", "Segoe UI", sans-serif;
         }
 
         body {
@@ -32,7 +32,7 @@
 
         /* ================= 2. 頁首導覽列 ================= */
         header {
-            background-color: #0f2c59; /* 深藍色，代表穩重、專業 */
+            background-color: #0f2c59;
             color: #ffffff;
             position: sticky;
             top: 0;
@@ -56,24 +56,47 @@
         nav ul {
             display: flex;
             list-style: none;
+            align-items: center;
         }
 
         nav ul li {
-            margin-left: 30px;
+            margin-left: 20px;
         }
 
         nav ul li a {
-            font-size: 16px;
+            font-size: 15px;
             transition: color 0.3s;
         }
 
         nav ul li a:hover {
-            color: #dac0a3; /* 霧金/香檳金，增添質感 */
+            color: #dac0a3;
+        }
+
+        /* 語言下拉選單優化樣式 */
+        .lang-selector-container {
+            margin-left: 20px;
+        }
+
+        .lang-select {
+            background-color: transparent;
+            border: 1px solid #dac0a3;
+            color: #dac0a3;
+            padding: 5px 8px;
+            font-size: 13px;
+            border-radius: 4px;
+            cursor: pointer;
+            outline: none;
+            font-weight: bold;
+            max-width: 140px;
+        }
+
+        .lang-select option {
+            background-color: #0f2c59;
+            color: #ffffff;
         }
 
         /* ================= 3. 主視覺橫幅 (Hero Section) ================= */
         .hero {
-            /* 這裡已將原本的網路網址，改為直接調用同資料夾下的 banner.jpg */
             background: linear-gradient(rgba(15, 44, 89, 0.85), rgba(15, 44, 89, 0.85)), 
                         url('photos/home.jpg') no-repeat center center/cover;
             color: #ffffff;
@@ -124,7 +147,6 @@
             padding-bottom: 15px;
         }
 
-        /* 底部的裝飾線，讓標題更正式 */
         .section-title::after {
             content: '';
             position: absolute;
@@ -161,7 +183,7 @@
             padding: 40px 30px;
             border-radius: 4px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-            border-top: 4px solid #0f2c59; /* 卡片頂部深藍線條 */
+            border-top: 4px solid #0f2c59;
             transition: transform 0.3s;
         }
 
@@ -209,15 +231,61 @@
 
     <header>
         <div class="container">
-            <div class="logo">菁才知光學會</div>
+            <div class="logo i18n" data-key="logo">菁才知光學會</div>
             <nav>
                 <ul>
-                    <li><a href="https://tsoikanting.github.io/home/">首頁</a></li>
-                    <li><a href="#">下載鏈接</a></li>
-                    <li><a href="#">關於公會</a></li>
-                    <li><a href="https://www.immigration.gov.tw/" class="my-btn">最新消息</a></li>
-                    <li><a href="#">會員服務</a></li>
-                    <li><a href="#">聯絡我們</a></li>
+                    <li><a href="https://tsoikanting.github.io/home/" class="i18n" data-key="nav-home">首頁</a></li>
+                    <li><a href="#" class="i18n" data-key="nav-download">下載鏈接</a></li>
+                    <li><a href="#" class="i18n" data-key="nav-about">關於公會</a></li>
+                    <li><a href="https://www.immigration.gov.tw/" class="my-btn i18n" data-key="nav-news">最新消息</a></li>
+                    <li><a href="#" class="i18n" data-key="nav-services">會員服務</a></li>
+                    <li><a href="#" class="i18n" data-key="nav-contact">聯絡我們</a></li>
+                    
+                    <li class="lang-selector-container">
+                        <select class="lang-select" id="langSelect">
+                            <optgroup label="亞洲 / 華語語系">
+                                <option value="zh-TW" selected>繁體中文（台灣）</option>
+                                <option value="zh-CN">简体中文（大陆）</option>
+                                <option value="zh-HK">繁體中文（香港）</option>
+                                <option value="ja">日本語</option>
+                                <option value="ko">한국어</option>
+                                <option value="vi">Tiếng Việt</option>
+                                <option value="th">ไทย</option>
+                                <option value="id">Bahasa Indonesia</option>
+                                <option value="ms">Bahasa Melayu</option>
+                                <option value="fil">Filipino</option>
+                                <option value="hi">हिन्दी</option>
+                            </optgroup>
+                            <optgroup label="歐美主流語系">
+                                <option value="en">English</option>
+                                <option value="es">Español</option>
+                                <option value="fr">Français</option>
+                                <option value="de">Deutsch</option>
+                                <option value="ru">Русский</option>
+                                <option value="pt">Português</option>
+                                <option value="it">Italiano</option>
+                                <option value="nl">Nederlands</option>
+                                <option value="pl">Polski</option>
+                                <option value="uk">Українська</option>
+                            </optgroup>
+                            <optgroup label="北歐語系">
+                                <option value="sv">Svenska</option>
+                                <option value="no">Norsk</option>
+                                <option value="da">Dansk</option>
+                                <option value="fi">Suomi</option>
+                            </optgroup>
+                            <optgroup label="中東與其他地區">
+                                <option value="ar">العربية</option>
+                                <option value="fa">فارسی</option>
+                                <option value="tr">Türkçe</option>
+                                <option value="el">Ελληνικά</option>
+                                <option value="he">עברית</option>
+                                <option value="sw">Kiswahili</option>
+                                <option value="ro">Română</option>
+                                <option value="hu">Magyar</option>
+                            </optgroup>
+                        </select>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -225,34 +293,34 @@
 
     <section class="hero">
         <div class="container">
-            <h1>凝聚學會力量 · 引領時代未來</h1>
-            <p>本會致力於度卡蹭。</p>
-            <a href="#" class="btn">申請入會</a>
+            <h1 class="i18n" data-key="hero-title">凝聚學會力量 · 引領時代未來</h1>
+            <p class="i18n" data-key="hero-desc">本會致力於度卡蹭。</p>
+            <a href="#" class="btn i18n" data-key="hero-btn">申請入會</a>
         </div>
     </section>
 
     <section class="about">
         <div class="container">
-            <h2 class="section-title">學會簡介</h2>
-            <p>本學會成立於西元 2026 年，為依法設立之非營利學會。本會以協調同業關係、增進共同利益、開拓國內外市場、並以推進學術提升為宗旨。歷年來積極配合政府政策，反映會員意見，成為政府與產業間最堅實的溝通橋樑。</p>
+            <h2 class="section-title i18n" data-key="about-title">學會簡介</h2>
+            <p class="i18n" data-key="about-desc">本學會成立於西元 2026 年，為依法設立之非營利學會。本會以協調同業關係、增進共同利益、開拓國內外市場、並以推進學術提升為宗旨。歷年來積極配合政府政策，反映會員意見，成為政府與產業間最堅實的溝通橋樑。</p>
         </div>
     </section>
 
     <section class="services">
         <div class="container">
-            <h2 class="section-title" style="text-align: center;">服務範疇</h2>
+            <h2 class="section-title i18n" style="text-align: center;" data-key="services-title">服務範疇</h2>
             <div class="card-grid">
                 <div class="card">
-                    <h3>學術交流</h3>
-                    <p>提供學術交流環境。</p>
+                    <h3 class="i18n" data-key="card1-title">學術交流</h3>
+                    <p class="i18n" data-key="card1-desc">提供學術交流環境。</p>
                 </div>
                 <div class="card">
-                    <h3>課程交互</h3>
-                    <p>教學新思想</p>
+                    <h3 class="i18n" data-key="card2-title">課程交互</h3>
+                    <p class="i18n" data-key="card2-desc">教學新思想</p>
                 </div>
                 <div class="card">
-                    <h3>戀愛交友</h3>
-                    <p>致力於推進人類生育計劃</p>
+                    <h3 class="i18n" data-key="card3-title">戀愛交友</h3>
+                    <p class="i18n" data-key="card3-desc">致力於推進人類生育計劃</p>
                 </div>
             </div>
         </div>
@@ -261,15 +329,49 @@
     <footer>
         <div class="container">
             <div class="footer-info">
-                <p><strong>菁才知光學會</strong></p>
-                <p>地址：北京零環</p>
-                <p>電話：(888) XXXX-XXXX | 信箱：x@xxx.xxx</p>
+                <p><strong class="i18n" data-key="logo">菁才知光學會</strong></p>
+                <p class="i18n" data-key="footer-addr">地址：北京零環</p>
+                <p class="i18n" data-key="footer-contact">電話：(888) XXXX-XXXX | 信箱：x@xxx.xxx</p>
             </div>
             <div class="footer-copyright">
                 &copy; 2026 菁才知光學會. All Rights Reserved.
             </div>
         </div>
     </footer>
+
+    <script src="languages.js"></script>
+    
+    <script>
+        const langSelect = document.getElementById('langSelect');
+        const i18nElements = document.querySelectorAll('.i18n');
+        const webTitle = document.getElementById('web-title');
+
+        function changeLanguage(lang) {
+            // 檢查字典中是否存在該語系，沒有的話預設回 zh-TW
+            const dictionary = translations[lang] || translations['zh-TW'];
+            
+            // 遍歷所有 .i18n 元素並替換文字
+            i18nElements.forEach(element => {
+                const key = element.getAttribute('data-key');
+                if (dictionary[key]) {
+                    element.textContent = dictionary[key];
+                }
+            });
+
+            // 替換分頁標題文字
+            if (dictionary['web-title']) {
+                webTitle.textContent = dictionary['web-title'];
+            }
+
+            // 動態修改網頁根節點的語系代碼
+            document.documentElement.lang = lang;
+        }
+
+        // 監聽下拉選單改變事件
+        langSelect.addEventListener('change', (event) => {
+            changeLanguage(event.target.value);
+        });
+    </script>
 
 </body>
 </html>
