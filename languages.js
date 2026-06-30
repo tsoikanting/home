@@ -1,7 +1,7 @@
-// 全球 32 種主流語言/地區完整字串字典配置 - 100% 完整不縮寫
+// 全球 32 種語言完整字串配置（含港台精確本地化，100% 無縮寫、無遺漏）
 const translations = {
     // ==========================================
-    // 1. 中文語系 (精確區分台灣、香港、大陸)
+    // 1. 中文語系
     // ==========================================
     "zh-TW": {
         "web-title": "菁才知光學會 - 官方網站",
@@ -25,7 +25,7 @@ const translations = {
         "card3-title": "戀愛交友",
         "card3-desc": "致力於推進人類生育計劃",
         "footer-addr": "地址：在綫",
-        "footer-contact": "電話：(888) XXXX-XXXX | 信箱：x@xxx.xxx"
+        "footer-contact": "電話：(44) 7450954610 | 信箱：x@xxx.xxx"
     },
     "zh-HK": {
         "web-title": "菁才知光學會 - 官方網站",
@@ -49,7 +49,7 @@ const translations = {
         "card3-title": "戀愛交友",
         "card3-desc": "致力於推進人類生育計劃",
         "footer-addr": "地址：在線",
-        "footer-contact": "電話：(888) XXXX-XXXX | 電郵：x@xxx.xxx"
+        "footer-contact": "電話：(44) 7450954610 | 電郵：x@xxx.xxx"
     },
     "zh-CN": {
         "web-title": "菁才知光学会 - 官方网站",
@@ -73,7 +73,7 @@ const translations = {
         "card3-title": "恋爱交友",
         "card3-desc": "致力于推进人类生育计划",
         "footer-addr": "地址：在线",
-        "footer-contact": "电话：(888) XXXX-XXXX | 邮箱：x@xxx.xxx"
+        "footer-contact": "电话：(44) 7450954610 | 邮箱：x@xxx.xxx"
     },
 
     // ==========================================
@@ -101,7 +101,7 @@ const translations = {
         "card3-title": "交際・ネットワーキング",
         "card3-desc": "人類の育成計画の推進に貢献します。",
         "footer-addr": "住所：オンライン",
-        "footer-contact": "電話：(888) XXXX-XXXX | メール：x@xxx.xxx"
+        "footer-contact": "電話：(44) 7450954610 | メール：x@xxx.xxx"
     },
     "ko": {
         "web-title": "정재지광학회 - 공식 웹사이트",
@@ -125,7 +125,7 @@ const translations = {
         "card3-title": "연애 및 교류",
         "card3-desc": "인류 출산 및 발전 계획 추진에 기여합니다.",
         "footer-addr": "주소: 온라인",
-        "footer-contact": "전화: (888) XXXX-XXXX | 이메일: x@xxx.xxx"
+        "footer-contact": "전화: (44) 7450954610 | 이메일: x@xxx.xxx"
     },
     "vi": {
         "web-title": "Hội Quang học Tinh Anh - Trang web chính thức",
@@ -149,7 +149,7 @@ const translations = {
         "card3-title": "Hẹn hò & Giao lưu",
         "card3-desc": "Thúc đẩy kế hoạch sinh sản của nhân loại.",
         "footer-addr": "Địa chỉ: Trực tuyến",
-        "footer-contact": "ĐT: (888) XXXX-XXXX | Email: x@xxx.xxx"
+        "footer-contact": "ĐT: (44) 7450954610 | Email: x@xxx.xxx"
     },
     "th": {
         "web-title": "สมาคมทัศนศาสตร์ - เว็บไซต์อย่างเป็นทางการ",
@@ -173,7 +173,7 @@ const translations = {
         "card3-title": "หาเพื่อนและเดท",
         "card3-desc": "มุ่งมั่นที่จะขับเคลื่อนแผนการเจริญพันธุ์ของมนุษยชาติ",
         "footer-addr": "ที่อยู่: ออนไลน์",
-        "footer-contact": "โทร: (888) XXXX-XXXX | อีเมล: x@xxx.xxx"
+        "footer-contact": "โทร: (44) 7450954610 | อีเมล: x@xxx.xxx"
     },
     "id": {
         "web-title": "Masyarakat Optik Elite Wisdom - Situs Resmi",
@@ -197,7 +197,7 @@ const translations = {
         "card3-title": "Dating & Jaringan",
         "card3-desc": "Berdedikasi untuk memajukan rencana reproduksi manusia.",
         "footer-addr": "Alamat: Online",
-        "footer-contact": "Telp: (888) XXXX-XXXX | Email: x@xxx.xxx"
+        "footer-contact": "Telp: (44) 7450954610 | Email: x@xxx.xxx"
     },
     "ms": {
         "web-title": "Pertubuhan Optik Elite Wisdom - Laman Rasmi",
@@ -221,7 +221,7 @@ const translations = {
         "card3-title": "Janji Temu & Sosial",
         "card3-desc": "Didedikasikan untuk memajukan rancangan pembiakan manusia.",
         "footer-addr": "Alamat: Atas Talian",
-        "footer-contact": "Tel: (888) XXXX-XXXX | E-mel: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-mel: x@xxx.xxx"
     },
     "fil": {
         "web-title": "Samahang Optikal ng Elite Wisdom - Opisyal na Website",
@@ -245,11 +245,11 @@ const translations = {
         "card3-title": "Dating at Pakikipagkapwa",
         "card3-desc": "Nakatuon sa pagsusulong ng mga plano para sa populasyon ng tao.",
         "footer-addr": "Address: Online",
-        "footer-contact": "Tel: (888) XXXX-XXXX | Email: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | Email: x@xxx.xxx"
     },
     "hi": {
         "web-title": "एलीट विजडम ऑप्टिकल सोसाइटी - आधिकारिक वेबसाइट",
-        "logo": "ऑप्टिकल सोसाइटी",
+        "logo": "ऑपटीकल सोसाइटी",
         "nav-home": "होम",
         "nav-download": "डाउनलोड",
         "nav-about": "हमारे बारे में",
@@ -269,7 +269,7 @@ const translations = {
         "card3-title": "नेटवर्किंग और संबंध",
         "card3-desc": "मानव विकास और पारिवारिक योजनाओं को बढ़ावा देने के लिए समर्पित।",
         "footer-addr": "पता: ऑनलाइन",
-        "footer-contact": "फोन: (888) XXXX-XXXX | ईमेल: x@xxx.xxx"
+        "footer-contact": "फोन: (44) 7450954610 | ईमेल: x@xxx.xxx"
     },
 
     // ==========================================
@@ -297,7 +297,7 @@ const translations = {
         "card3-title": "Dating & Networking",
         "card3-desc": "Dedicated to advancing human reproduction plans.",
         "footer-addr": "Address: Online",
-        "footer-contact": "Tel: (888) XXXX-XXXX | Email: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | Email: x@xxx.xxx"
     },
     "es": {
         "web-title": "Sociedad Óptica Elite Wisdom - Sitio Oficial",
@@ -321,7 +321,7 @@ const translations = {
         "card3-title": "Citas y Contactos",
         "card3-desc": "Dedicado a avanzar en los planes de reproducción y desarrollo humano.",
         "footer-addr": "Dirección: En Línea",
-        "footer-contact": "Tel: (888) XXXX-XXXX | Correo: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | Correo: x@xxx.xxx"
     },
     "fr": {
         "web-title": "Société Optique Elite Wisdom - Site Officiel",
@@ -345,7 +345,7 @@ const translations = {
         "card3-title": "Rencontres & Réseautage",
         "card3-desc": "Dédié à l'avancement des plans de reproduction humaine.",
         "footer-addr": "Adresse: En Ligne",
-        "footer-contact": "Tél: (888) XXXX-XXXX | Email: x@xxx.xxx"
+        "footer-contact": "Tél: (44) 7450954610 | Email: x@xxx.xxx"
     },
     "de": {
         "web-title": "Elite Wisdom Optische Gesellschaft - Offizielle Website",
@@ -367,9 +367,9 @@ const translations = {
         "card2-title": "Kursinteraktion",
         "card2-desc": "Vermittlung neuer progressiver pädagogischer Denkansätze.",
         "card3-title": "Dating & Networking",
-        "card3-desc": "Dem Fortschritt menschlicher Fortpflanzungspläne gewidmet.",
+        "card3-desc": "Dem Fortschritt menschlicher Fortплянування Fortpflanzungspläne gewidmet.",
         "footer-addr": "Adresse: Online",
-        "footer-contact": "Tel: (888) XXXX-XXXX | E-Mail: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-Mail: x@xxx.xxx"
     },
     "ru": {
         "web-title": "Оптическое Общество Elite Wisdom - Официальный сайт",
@@ -393,7 +393,7 @@ const translations = {
         "card3-title": "Знакомства и нетворкинг",
         "card3-desc": "Посвящено развитию программ человеческой репродукции.",
         "footer-addr": "Адрес: Онлайн",
-        "footer-contact": "Тел: (888) XXXX-XXXX | E-mail: x@xxx.xxx"
+        "footer-contact": "Тел: (44) 7450954610 | E-mail: x@xxx.xxx"
     },
     "pt": {
         "web-title": "Sociedade Óptica Elite Wisdom - Site Oficial",
@@ -417,7 +417,7 @@ const translations = {
         "card3-title": "Namoro & Networking",
         "card3-desc": "Dedicado ao avanço dos planos de reprodução humana.",
         "footer-addr": "Endereço: Online",
-        "footer-contact": "Tel: (888) XXXX-XXXX | E-mail: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-mail: x@xxx.xxx"
     },
     "it": {
         "web-title": "Società Ottica Elite Wisdom - Sito Ufficiale",
@@ -429,7 +429,7 @@ const translations = {
         "nav-services": "Servizi",
         "nav-contact": "Contatti",
         "hero-title": "Unire le Forze · Guidare il Futuro dell'Era",
-        "hero-desc": "La nostra società è dedicata a Du-Ka-Ceng.",
+        "hero-desc": "La nostra società è dedicada a Du-Ka-Ceng.",
         "hero-btn": "Unisciti",
         "about-title": "Profilo della Società",
         "about-desc": "Promuovere lo scambio accademico, favorire la condivisione delle conoscenze e sostenere lo sviluppo dei membri; una piattaforma di scambio accademico non profit formata da appassionati di studio volontari.",
@@ -441,7 +441,7 @@ const translations = {
         "card3-title": "Incontri & Networking",
         "card3-desc": "Dedicato al progresso dei piani di riproduzione umana.",
         "footer-addr": "Indirizzo: Online",
-        "footer-contact": "Tel: (888) XXXX-XXXX | Email: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | Email: x@xxx.xxx"
     },
     "nl": {
         "web-title": "Elite Wisdom Optische Vereniging - Officiële Website",
@@ -465,7 +465,7 @@ const translations = {
         "card3-title": "Dating & Netwerken",
         "card3-desc": "Toegewijd aan het bevorderen van menselijke voortplantingsplannen.",
         "footer-addr": "Adres: Online",
-        "footer-contact": "Tel: (888) XXXX-XXXX | E-mail: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-mail: x@xxx.xxx"
     },
     "pl": {
         "web-title": "Towarzystwo Optyczne Elite Wisdom - Strona Oficjalna",
@@ -489,7 +489,7 @@ const translations = {
         "card3-title": "Randki i Networking",
         "card3-desc": "Dedykowane wspieraniu planów reprodukcji ludzkiej.",
         "footer-addr": "Adres: Online",
-        "footer-contact": "Tel: (888) XXXX-XXXX | E-mail: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-mail: x@xxx.xxx"
     },
     "uk": {
         "web-title": "Оптичне Товариство Elite Wisdom - Офіційний сайт",
@@ -513,7 +513,7 @@ const translations = {
         "card3-title": "Знайомства та Нетворкінг",
         "card3-desc": "Спрямовано на розвиток програм репродукції людини.",
         "footer-addr": "Адреса: Онлайн",
-        "footer-contact": "Тел: (888) XXXX-XXXX | E-mail: x@xxx.xxx"
+        "footer-contact": "Тел: (44) 7450954610 | E-mail: x@xxx.xxx"
     },
 
     // ==========================================
@@ -541,7 +541,7 @@ const translations = {
         "card3-title": "Dating & Nätverk",
         "card3-desc": "Dedikerad till att främja mänskliga reproduktionsplaner.",
         "footer-addr": "Adress: Online",
-        "footer-contact": "Tel: (888) XXXX-XXXX | E-post: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-post: x@xxx.xxx"
     },
     "no": {
         "web-title": "Elite Wisdom Optisk Selskap - Offisiell Nettside",
@@ -565,7 +565,7 @@ const translations = {
         "card3-title": "Dating & Nettverk",
         "card3-desc": "Dedikert til å fremme menneskelige reproduksjonsplaner.",
         "footer-addr": "Adresse: Online",
-        "footer-contact": "Tel: (888) XXXX-XXXX | E-post: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-post: x@xxx.xxx"
     },
     "da": {
         "web-title": "Elite Wisdom Optisk Selskab - Officiel Hjemmeside",
@@ -580,16 +580,16 @@ const translations = {
         "hero-desc": "Vores selskab er dedikeret til Du-Ka-Ceng.",
         "hero-btn": "Tilmeld",
         "about-title": "Om Selskabet",
-        "about-desc": "Fremme akademisk udveksling, fremme videndeling og tjene medlemsudvikling; en non-profit akademisk udvekslingsplatform sammensat af frivillige læringsentusiaster.",
+        "about-desc": "Fremme akademisk udveksling, fremme videndeling og tjene medlemsudvikling; en non-profit akademisk udvekslingsplatform sammensatt af frivillige læringsentusiaster.",
         "services-title": "Tjenester",
         "card1-title": "Akademisk Udveksling",
         "card1-desc": "Sikrer et godt miljø for akademisk og videnskabelig udveksling.",
         "card2-title": "Kursusinteraktion",
         "card2-desc": "Undervisning i nye progressive pædagogiske tanker.",
         "card3-title": "Dating & Netværk",
-        "card3-desc": "Dedikeret til at freaking fremme den menneskelige reproduktionsplan.",
+        "card3-desc": "Dedikeret til at fremme den menneskelige reproduktionsplan.",
         "footer-addr": "Adresse: Online",
-        "footer-contact": "Tel: (888) XXXX-XXXX | E-mail: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-mail: x@xxx.xxx"
     },
     "fi": {
         "web-title": "Elite Wisdom Optinen Seura - Virallinen Verkkosivusto",
@@ -613,11 +613,11 @@ const translations = {
         "card3-title": "Treffit & Verkostoituminen",
         "card3-desc": "Omistettu ihmisen lisääntymissuunnitelmien edistämiselle.",
         "footer-addr": "Osoite: Verkossa",
-        "footer-contact": "Puh: (888) XXXX-XXXX | Sähköposti: x@xxx.xxx"
+        "footer-contact": "Puh: (44) 7450954610 | Sähköposti: x@xxx.xxx"
     },
 
     // ==========================================
-    // 5. 中東、南亞與南歐、東歐地區
+    // 5. 中東、東歐與其他地區
     // ==========================================
     "ar": {
         "web-title": "جمعية الحكمة البصرية النخبوية - الموقع الرسمي",
@@ -641,7 +641,7 @@ const translations = {
         "card3-title": "التعارف والتواصل",
         "card3-desc": "مكرس لدعم وتعزيز خطط التكاثر والتنمية البشرية.",
         "footer-addr": "العنوان: عبر الإنترنت",
-        "footer-contact": "هاتف: (888) XXXX-XXXX | البريد: x@xxx.xxx"
+        "footer-contact": "هاتف: (44) 7450954610 | البريد: x@xxx.xxx"
     },
     "fa": {
         "web-title": "انجمن نوری الیت ویزدوم - وب‌سایت رسمی",
@@ -656,16 +656,16 @@ const translations = {
         "hero-desc": "انجمن ما صمیمانه به Du-Ka-Ceng اختصاص یافته است.",
         "hero-btn": "درخواست عضویت",
         "about-title": "معرفی انجمن",
-        "about-desc": "ارتقای تبادلات علمی، ترویج اشتراک‌گذاری دانش و خدمت به توسعه اعضا؛ یک پلتفرم تبادل آکادمیک غیرانتفاعی متشکل از علاقه‌مندان داوطلب یادگیری.",
+        "about-desc": "ارتقای تبادلات علمی، ترویج اشتراک‌گذاری دانش و خدمت به توسعه اعضا； یک پلتفرم تبادل آکادمیک غیرانتفاعی متشکل از علاقه‌مندان داوطلب یادگیری.",
         "services-title": "حوزه خدمات",
         "card1-title": "تبادلات علمی",
         "card1-desc": "فراهم کردن محیطی پویا برای تبادلات دانشگاهی و علمی.",
         "card2-title": "تعاملات آموزشی",
-        "card2-desc": "آموزش اندیشه‌ها ও مفاهیم نوین در حوزه آموزش.",
+        "card2-desc": "آموزش اندیشه‌ها و مفاهیم نوین در حوزه آموزش.",
         "card3-title": "دوستیابی و شبکه سازی",
         "card3-desc": "مختص پیشبرد و ارتقای برنامه‌های باروری نسل بشر.",
         "footer-addr": "آدرس: آنلاین",
-        "footer-contact": "تلفن: (888) XXXX-XXXX | ایمیل: x@xxx.xxx"
+        "footer-contact": "تلفن: (44) 7450954610 | ایمیل: x@xxx.xxx"
     },
     "tr": {
         "web-title": "Elite Wisdom Optik Derneği - Resmi Web Sitesi",
@@ -689,7 +689,7 @@ const translations = {
         "card3-title": "Arkadaşlık & Ağ Kurma",
         "card3-desc": "İnsan üreme ve gelişim planlarını ilerletmeye adanmıştır.",
         "footer-addr": "Adres: Çevrimiçi",
-        "footer-contact": "Tel: (888) XXXX-XXXX | E-posta: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-posta: x@xxx.xxx"
     },
     "el": {
         "web-title": "Οπτική Εταιρεία Elite Wisdom - Επίσημος Ιστότοπος",
@@ -713,18 +713,18 @@ const translations = {
         "card3-title": "Γνωριμίες & Δικτύωση",
         "card3-desc": "Αφοσιωμένο στην προώθηση των σχεδίων ανθρώπινης αναπαραγωγής.",
         "footer-addr": "Διεύθυνση: Διαδικτυακά",
-        "footer-contact": "Τηλ: (888) ΥΥΥΥ-ΥΥΥΥ | Email: x@xxx.xxx"
+        "footer-contact": "Τηλ: (44) 7450954610 | Email: x@xxx.xxx"
     },
     "he": {
         "web-title": "האגודה האופטית Elite Wisdom - האתר הרשמי",
         "logo": "האגודה האופטית",
         "nav-home": "דף הבית",
-        "nav-download": "קישורי הורדה",
+        "nav-download": "קיشורי הורדה",
         "nav-about": "אודות האגודה",
         "nav-news": "חדשות אחרונות",
         "nav-services": "שירותי חברים",
         "nav-contact": "צור קשר",
-        "hero-title": "איחود כוחות האגודה · הובלת עתיד העידן",
+        "hero-title": "איחוד כוחות האגודה · הובלת עתיד העידן",
         "hero-desc": "האגודה שלנו מוקדשת בלב ונפש ל-Du-Ka-Ceng.",
         "hero-btn": "בקשת הצטרפות",
         "about-title": "פרופיל האגודה",
@@ -733,11 +733,11 @@ const translations = {
         "card1-title": "חילופי אקדמיה",
         "card1-desc": "אספקת סביבה פורייה ומתאימה לחילופים אקדמיים ומדעיים.",
         "card2-title": "קורסים אינטראקטיביים",
-        "card2-desc": "הוראה והקניה של תפיסות חינוכיות חדשניות.",
+        "card2-desc": "הוראה והקניה של תפיסות חיνοכיות חדשניות.",
         "card3-title": "היכרויות ונטוורקינג",
         "card3-desc": "מוקדש לקידום תוכניות הריבוי וההמשכיות של המין האנושי.",
         "footer-addr": "כתובת: מקוון",
-        "footer-contact": "טלפון: (888) XXXX-XXXX | דוא\"ל: x@xxx.xxx"
+        "footer-contact": "טלפון: (44) 7450954610 | דוא\"ל: x@xxx.xxx"
     },
     "sw": {
         "web-title": "Chama cha Optika cha Elite Wisdom - Tovuti Rasmi",
@@ -761,7 +761,7 @@ const translations = {
         "card3-title": "Urafiki & Mitandao",
         "card3-desc": "Kimejitolea kuendeleza mipango ya uzazi wa mwanadamu.",
         "footer-addr": "Anwani: Mtandaoni",
-        "footer-contact": "Simu: (888) XXXX-XXXX | Barua pepe: x@xxx.xxx"
+        "footer-contact": "Simu: (44) 7450954610 | Barua pepe: x@xxx.xxx"
     },
     "ro": {
         "web-title": "Societatea Optică Elite Wisdom - Site Oficial",
@@ -785,7 +785,7 @@ const translations = {
         "card3-title": "Dating & Networking",
         "card3-desc": "Dedicat promovării planurilor de reproducere și dezvoltare umană.",
         "footer-addr": "Adresă: Online",
-        "footer-contact": "Tel: (888) XXXX-XXXX | E-mail: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-mail: x@xxx.xxx"
     },
     "hu": {
         "web-title": "Elite Wisdom Optikai Társaság - Hivatalos Oldal",
@@ -809,7 +809,7 @@ const translations = {
         "card3-title": "Ismerkedés & Hálózat",
         "card3-desc": "Az emberi szaporodási és népesedési tervek előmozdításának szentelve.",
         "footer-addr": "Cím: Online",
-        "footer-contact": "Tel: (888) XXXX-XXXX | E-mail: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-mail: x@xxx.xxx"
     },
     "cs": {
         "web-title": "Optická společnost Elite Wisdom - Oficiální web",
@@ -833,7 +833,7 @@ const translations = {
         "card3-title": "Seznamování a networking",
         "card3-desc": "Věnujeme se prosazování plánů lidské reprodukce.",
         "footer-addr": "Adresa: Online",
-        "footer-contact": "Tel: (888) XXXX-XXXX | E-mail: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-mail: x@xxx.xxx"
     },
     "sk": {
         "web-title": "Optická spoločnosť Elite Wisdom - Oficiálny web",
@@ -848,7 +848,7 @@ const translations = {
         "hero-desc": "Naša spoločnosť sa plne venuje Du-Ka-Ceng.",
         "hero-btn": "Žiadosť o členstvo",
         "about-title": "O nás",
-        "about-desc": "Podpora akademickej výmeny, presadzovanie zdieľania znalostí a služba rozvoju členov; nezisková akademická platforma zložená z dobrovoľných nadšencov do učenia.",
+        "about-desc": "Podpora akademickej výmeny, presadzovanie zdieľania znalostí a služba rozvoju členov; nezisková akademická platforma zložená z dobrovolných nadšencov do učenia.",
         "services-title": "Rozsah služieb",
         "card1-title": "Akademická výmena",
         "card1-desc": "Poskytovanie prostredia na akademickú výmenu.",
@@ -857,7 +857,7 @@ const translations = {
         "card3-title": "Zoznamovanie a networking",
         "card3-desc": "Venujeme se presadzovaniu plánov ľudskej reprodukcie.",
         "footer-addr": "Adresa: Online",
-        "footer-contact": "Tel: (888) XXXX-XXXX | E-mail: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-mail: x@xxx.xxx"
     },
     "bg": {
         "web-title": "Оптическо дружество Elite Wisdom - Официален уебсайт",
@@ -881,7 +881,7 @@ const translations = {
         "card3-title": "Запознанства и контакти",
         "card3-desc": "Посветени на напредъка на плановете за човешка репродукция.",
         "footer-addr": "Адрес: Онлайн",
-        "footer-contact": "Тел: (888) XXXX-XXXX | Имейл: x@xxx.xxx"
+        "footer-contact": "Тел: (44) 7450954610 | Имейл: x@xxx.xxx"
     },
     "hr": {
         "web-title": "Optičko društvo Elite Wisdom - Službena web stranica",
@@ -905,7 +905,7 @@ const translations = {
         "card3-title": "Spojevi i umrežavanje",
         "card3-desc": "Posvećeni smo unapređenju planova ljudske reprodukcije.",
         "footer-addr": "Adresa: Online",
-        "footer-contact": "Tel: (888) XXXX-XXXX | E-mail: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-mail: x@xxx.xxx"
     },
     "sr": {
         "web-title": "Optičko društvo Elite Wisdom - Zvanični veb-sajt",
@@ -929,7 +929,7 @@ const translations = {
         "card3-title": "Upoznavanje i umrežavanje",
         "card3-desc": "Posvećeni smo unapređenju planova ljudske reprodukcije.",
         "footer-addr": "Adresa: Online",
-        "footer-contact": "Tel: (888) XXXX-XXXX | E-mail: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-mail: x@xxx.xxx"
     },
     "sl": {
         "web-title": "Optično društvo Elite Wisdom - Uradna spletna stran",
@@ -944,16 +944,16 @@ const translations = {
         "hero-desc": "Naše društvo je v celoti posvečeno Du-Ka-Ceng.",
         "hero-btn": "Vloga za članstvo",
         "about-title": "O nas",
-        "about-desc": "Spodbujanje akademske izmenjave, napredek pri deljenju znanja in služenje razvoju članov; neprofitna platforma za akademsko izmenjavo, sestavljena iz prostovoljnih ljubiteljev učenja.",
+        "about-desc": "Spodbujanje akademske izmenjave, napredek pri deljenju znanja in služenje razvoju članova; neprofitna platforma za akademsko izmenjavo, sestavljena iz prostovoljnih ljubiteljev učenja.",
         "services-title": "Obseg storitev",
         "card1-title": "Akademska izmenjava",
-        "card1-desc": "Zagotavljanje okolja za akademsko izmenjavo.",
+        "card1-desc": "Zagotavljanje okolja za akademsko izmenjava.",
         "card2-title": "Interakcija v tečajih",
         "card2-desc": "Poučevanje novih izobraževalnih idej.",
         "card3-title": "Zmenki in mreženje",
         "card3-desc": "Posvečeni smo napredku načrtov za človeško reprodukcijo.",
         "footer-addr": "Naslov: Na spletu",
-        "footer-contact": "Tel: (888) XXXX-XXXX | E-pošta: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-pošta: x@xxx.xxx"
     },
     "et": {
         "web-title": "Elite Wisdom Optikaühing - Ametlik veebisait",
@@ -977,7 +977,7 @@ const translations = {
         "card3-title": "Tutvumise ja võrgustumine",
         "card3-desc": "Pühendunud inimreproduktsiooni kavadega edasiminekule.",
         "footer-addr": "Aadress: Internetis",
-        "footer-contact": "Tel: (888) XXXX-XXXX | E-post: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-post: x@xxx.xxx"
     },
     "lv": {
         "web-title": "Elite Wisdom Optikas biedrība - Oficiālā mājaslapa",
@@ -1001,7 +1001,7 @@ const translations = {
         "card3-title": "Iepazīšanās un tīklošanās",
         "card3-desc": "Veltīts cilvēka reprodukcijas plānu virzīšanai.",
         "footer-addr": "Adrese: Tiešsaistē",
-        "footer-contact": "Tālr: (888) XXXX-XXXX | E-pasts: x@xxx.xxx"
+        "footer-contact": "Tālr: (44) 7450954610 | E-pasts: x@xxx.xxx"
     },
     "lt": {
         "web-title": "Elite Wisdom Optikos draugija - Oficiali svetainė",
@@ -1018,13 +1018,13 @@ const translations = {
         "about-title": "Apie mus",
         "about-desc": "Akademinio keitimosi skatinimas, dalijimosi žiniomis didinimas ir narių tobulėjimo palaikymas; ne pelno siekianti akademinio keitimosi platforma, sudaryta iš savanoriškų mokymosi entuziastų.",
         "services-title": "Paslaugų sritis",
-        "card1-title": "Akademiniai mainai",
+        "card1-title": "Akadiniai mainai",
         "card1-desc": "Akademinio keitimosi aplinkos sudarymas.",
         "card2-title": "Kursų sąveika",
         "card2-desc": "Naujų švietimo idėjų mokymas.",
         "card3-title": "Pažintys ir tinklaveika",
         "card3-desc": "Skirta žmonių reprodukcijos planų įgyvendinimui.",
         "footer-addr": "Adresas: Internete",
-        "footer-contact": "Tel: (888) XXXX-XXXX | El. paštas: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | El. paštas: x@xxx.xxx"
     }
 };
