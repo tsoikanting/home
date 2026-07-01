@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="web-title">睿學社 - 官方網站</title>
+    <title id="web-title">關於學會 - 睿學社</title>
     <style>
-        /* (您的 CSS 保持不變，為節省篇幅此處省略，請繼續使用您原有的 CSS) */
+        /* 繼承自 index.html 的全域樣式 */
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: "PingFang TC", "Microsoft JhengHei", "Segoe UI", sans-serif; }
         body { background-color: #f8f9fa; color: #333333; line-height: 1.6; }
         a { text-decoration: none; color: inherit; }
         .container { width: 85%; max-width: 1200px; margin: 0 auto; }
+
+        /* Header 樣式 (與 index.html 完全一致) */
         header { background-color: #0f2c59; color: #ffffff; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
         header .container { display: flex; justify-content: space-between; align-items: center; padding: 20px 0; }
         .logo { font-size: 24px; font-weight: bold; letter-spacing: 1px; }
@@ -20,23 +22,22 @@
         .lang-selector-container { margin-left: 20px; }
         .lang-select { background-color: transparent; border: 1px solid #dac0a3; color: #dac0a3; padding: 5px 8px; font-size: 13px; border-radius: 4px; cursor: pointer; outline: none; font-weight: bold; max-width: 140px; }
         .lang-select option { background-color: #0f2c59; color: #ffffff; }
-        .hero { background: linear-gradient(rgba(15, 44, 89, 0.85), rgba(15, 44, 89, 0.85)), url('photos/home.jpg') no-repeat center center/cover; color: #ffffff; padding: 120px 0; text-align: center; }
-        .hero h1 { font-size: 40px; margin-bottom: 20px; letter-spacing: 2px; }
-        .hero p { font-size: 18px; max-width: 600px; margin: 0 auto 30px; color: #eadbc8; }
-        .btn { display: inline-block; background-color: #dac0a3; color: #0f2c59; padding: 12px 30px; font-weight: bold; border-radius: 4px; transition: background-color 0.3s, transform 0.2s; }
-        .btn:hover { background-color: #eadbc8; transform: translateY(-2px); }
-        .about { padding: 80px 0; background-color: #ffffff; text-align: center; }
-        .section-title { font-size: 30px; color: #0f2c59; margin-bottom: 15px; position: relative; padding-bottom: 15px; }
-        .section-title::after { content: ''; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 60px; height: 3px; background-color: #dac0a3; }
-        .about p { max-width: 800px; margin: 30px auto 0; font-size: 16px; color: #666666; text-align: justify; }
-        .services { padding: 80px 0; }
-        .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 50px; }
-        .card { background-color: #ffffff; padding: 40px 30px; border-radius: 4px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-top: 4px solid #0f2c59; transition: transform 0.3s; }
-        .card:hover { transform: translateY(-5px); }
-        .card h3 { color: #0f2c59; margin-bottom: 15px; font-size: 20px; }
-        .card p { color: #666666; font-size: 14px; }
+
+        /* Footer 樣式 (與 index.html 完全一致) */
         footer { background-color: #1c1c1c; color: #aaaaaa; padding: 40px 0; font-size: 14px; }
         footer .container { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; }
+
+        /* 其餘頁面內容樣式 (保持現有壯觀佈局) */
+        .page-header { background: #0f2c59; color: white; padding: 80px 0; text-align: center; }
+        .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; padding: 50px 0; background: #fff; margin-top: -30px; box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+        .stat-item { text-align: center; }
+        .stat-item h3 { font-size: 36px; color: #0f2c59; }
+        .content-section { padding: 80px 0; }
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; }
+        .section-title { font-size: 32px; color: #0f2c59; margin-bottom: 20px; position: relative; padding-bottom: 10px; }
+        .section-title::after { content: ''; position: absolute; bottom: 0; left: 0; width: 50px; height: 3px; background: #dac0a3; }
+        .values-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 40px; }
+        .value-card { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
     </style>
 </head>
 <body>
@@ -49,7 +50,7 @@
                     <li><a href="index.html" class="i18n" data-key="nav-home">首頁</a></li>
                     <li><a href="#" class="i18n" data-key="nav-download">下載鏈接</a></li>
                     <li><a href="about.html" class="i18n" data-key="nav-about">關於學會</a></li>
-                    <li><a href="https://www.immigration.gov.tw/" class="my-btn i18n" data-key="nav-news">最新消息</a></li>
+                    <li><a href="https://www.immigration.gov.tw/" class="i18n" data-key="nav-news">最新消息</a></li>
                     <li><a href="#" class="i18n" data-key="nav-services">會員服務</a></li>
                     <li><a href="#" class="i18n" data-key="nav-contact">聯絡我們</a></li>
                     <li class="lang-selector-container">
@@ -65,29 +66,34 @@
         </div>
     </header>
 
-    <section class="hero">
-        <div class="container">
-            <h1 class="i18n" data-key="hero-title">凝聚學會力量 · 引領時代未來</h1>
-            <p class="i18n" data-key="hero-desc">本會致力於度卡蹭。</p>
-            <a href="#" class="btn i18n" data-key="hero-btn">申請入會</a>
-        </div>
+    <section class="page-header">
+        <h1 class="i18n" data-key="about-hero-title">深耕學術，引領變革</h1>
+        <p class="i18n" data-key="about-hero-subtitle">自 2026 年起，我們致力於成為全球知識交流的樞紐</p>
     </section>
 
-    <section class="about">
-        <div class="container">
-            <h2 class="section-title i18n" data-key="about-title">學會簡介</h2>
-            <p class="i18n" data-key="about-desc">本學會成立於西元 2026 年，為依法設立之非營利學會。本會以協調同業關係、增進共同利益、開拓國內外市場、並以推進學術提升為宗旨。歷年來積極配合政府政策，反映會員意見，成為政府與產業間最堅實的溝通橋樑。</p>
-        </div>
+    <section class="stats-grid container">
+        <div class="stat-item"><h3 class="i18n" data-key="stat1">100+</h3><p class="i18n" data-key="stat1-desc">合作機構</p></div>
+        <div class="stat-item"><h3 class="i18n" data-key="stat2">5000+</h3><p class="i18n" data-key="stat2-desc">活躍會員</p></div>
+        <div class="stat-item"><h3 class="i18n" data-key="stat3">20+</h3><p class="i18n" data-key="stat3-desc">年度活動</p></div>
+        <div class="stat-item"><h3 class="i18n" data-key="stat4">15</h3><p class="i18n" data-key="stat4-desc">專業委員會</p></div>
     </section>
 
-    <section class="services">
-        <div class="container">
-            <h2 class="section-title i18n" style="text-align: center;" data-key="services-title">服務範疇</h2>
-            <div class="card-grid">
-                <div class="card"><h3 class="i18n" data-key="card1-title">學術交流</h3><p class="i18n" data-key="card1-desc">提供學術交流環境。</p></div>
-                <div class="card"><h3 class="i18n" data-key="card2-title">課程交互</h3><p class="i18n" data-key="card2-desc">教學新思想</p></div>
-                <div class="card"><h3 class="i18n" data-key="card3-title">戀愛交友</h3><p class="i18n" data-key="card3-desc">致力於推進人類生育計劃</p></div>
+    <section class="content-section container">
+        <div class="grid-2">
+            <div>
+                <h2 class="section-title i18n" data-key="history-title">發展沿革</h2>
+                <p class="i18n" data-key="history-long-desc">本學會自 2026 年成立以來，從最初的小型研討會，逐漸成長為具國際影響力的學術平台，持續推動產業轉型與知識創新。</p>
             </div>
+            <div style="background:#ddd; height:250px; border-radius:8px;"></div>
+        </div>
+    </section>
+
+    <section class="content-section container" style="background:#f8f9fa;">
+        <h2 class="section-title i18n" style="text-align:center;" data-key="values-title">核心價值</h2>
+        <div class="values-grid">
+            <div class="value-card"><h3 class="i18n" data-key="v1-title">誠信為本</h3><p class="i18n" data-key="v1-desc">堅守學術倫理與誠信原則。</p></div>
+            <div class="value-card"><h3 class="i18n" data-key="v2-title">跨界創新</h3><p class="i18n" data-key="v2-desc">鼓勵不同領域間的碰撞與整合。</p></div>
+            <div class="value-card"><h3 class="i18n" data-key="v3-title">社會責任</h3><p class="i18n" data-key="v3-desc">將學術研究轉化為實際的社會貢獻。</p></div>
         </div>
     </section>
 
@@ -103,6 +109,7 @@
 
     <script src="languages.js"></script>
     <script>
+        // (與 index.html 完全一致的 JS 邏輯)
         const langSelect = document.getElementById('langSelect');
         const i18nElements = document.querySelectorAll('.i18n');
         const webTitle = document.getElementById('web-title');
@@ -115,12 +122,11 @@
             });
             webTitle.textContent = dictionary['web-title'];
             document.documentElement.lang = lang;
-            localStorage.setItem('preferredLang', lang); // 記憶語言
+            localStorage.setItem('preferredLang', lang);
         }
 
         langSelect.addEventListener('change', (e) => changeLanguage(e.target.value));
 
-        // 頁面載入時讀取記憶
         document.addEventListener('DOMContentLoaded', () => {
             const savedLang = localStorage.getItem('preferredLang') || 'zh-TW';
             langSelect.value = savedLang;
