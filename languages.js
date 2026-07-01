@@ -4,8 +4,8 @@ const translations = {
     // 1. 中文語系
     // ==========================================
     "zh-TW": {
-        "web-title": "菁才知光學會 - 官方網站",
-        "logo": "菁才知光學會",
+        "web-title": "睿學社 - 官方網站",
+        "logo": "睿學社",
         "nav-home": "首頁",
         "nav-download": "下載鏈接",
         "nav-about": "關於公會",
@@ -25,11 +25,11 @@ const translations = {
         "card3-title": "戀愛交友",
         "card3-desc": "致力於推進人類生育計劃",
         "footer-addr": "地址：在綫",
-        "footer-contact": "電話：(44) 7450954610 | 信箱：x@xxx.xxx"
+        "footer-contact": "電話：(44) 7450954610 | 信箱：Learnaholics@Learnaholicsclub.uk"
     },
     "zh-HK": {
-        "web-title": "菁才知光學會 - 官方網站",
-        "logo": "菁才知光學會",
+        "web-title": "睿學社 - 官方網站",
+        "logo": "睿學社",
         "nav-home": "首頁",
         "nav-download": "下載連結",
         "nav-about": "關於公會",
@@ -49,11 +49,11 @@ const translations = {
         "card3-title": "戀愛交友",
         "card3-desc": "致力於推進人類生育計劃",
         "footer-addr": "地址：在線",
-        "footer-contact": "電話：(44) 7450954610 | 電郵：x@xxx.xxx"
+        "footer-contact": "電話：(44) 7450954610 | 電郵：Learnaholics@Learnaholicsclub.uk"
     },
     "zh-CN": {
-        "web-title": "菁才知光学会 - 官方网站",
-        "logo": "菁才知光学会",
+        "web-title": "睿学社 - 官方网站",
+        "logo": "睿学社",
         "nav-home": "首页",
         "nav-download": "下载链接",
         "nav-about": "关于公会",
@@ -73,15 +73,15 @@ const translations = {
         "card3-title": "恋爱交友",
         "card3-desc": "致力于推进人类生育计划",
         "footer-addr": "地址：在线",
-        "footer-contact": "电话：(44) 7450954610 | 邮箱：x@xxx.xxx"
+        "footer-contact": "电话：(44) 7450954610 | 邮箱：Learnaholics@Learnaholicsclub.uk"
     },
 
     // ==========================================
     // 2. 亞太語系
     // ==========================================
     "ja": {
-        "web-title": "菁才知光学学会 - 公式サイト",
-        "logo": "菁才知光学学会",
+        "web-title": "Learnaholics Clubs - 公式サイト",
+        "logo": "Learnaholics Clubs",
         "nav-home": "ホーム",
         "nav-download": "ダウンロードリンク",
         "nav-about": "学会について",
@@ -101,11 +101,11 @@ const translations = {
         "card3-title": "交際・ネットワーキング",
         "card3-desc": "人類の育成計画の推進に貢献します。",
         "footer-addr": "住所：オンライン",
-        "footer-contact": "電話：(44) 7450954610 | メール：x@xxx.xxx"
+        "footer-contact": "電話：(44) 7450954610 | メール：Learnaholics@Learnaholicsclub.uk"
     },
     "ko": {
-        "web-title": "정재지광학회 - 공식 웹사이트",
-        "logo": "정재지광학회",
+        "web-title": "Learnaholics Clubs - 공식 웹사이트",
+        "logo": "Learnaholics Clubs",
         "nav-home": "홈",
         "nav-download": "다운로드 링크",
         "nav-about": "학회 소개",
@@ -125,11 +125,11 @@ const translations = {
         "card3-title": "연애 및 교류",
         "card3-desc": "인류 출산 및 발전 계획 추진에 기여합니다.",
         "footer-addr": "주소: 온라인",
-        "footer-contact": "전화: (44) 7450954610 | 이메일: x@xxx.xxx"
+        "footer-contact": "전화: (44) 7450954610 | 이메일: Learnaholics@Learnaholicsclub.uk"
     },
     "vi": {
-        "web-title": "Hội Quang học Tinh Anh - Trang web chính thức",
-        "logo": "Hội Quang học Tinh Anh",
+        "web-title": "Learnaholics Clubs - Trang web chính thức",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Trang chủ",
         "nav-download": "Tải xuống",
         "nav-about": "Giới thiệu",
@@ -149,11 +149,11 @@ const translations = {
         "card3-title": "Hẹn hò & Giao lưu",
         "card3-desc": "Thúc đẩy kế hoạch sinh sản của nhân loại.",
         "footer-addr": "Địa chỉ: Trực tuyến",
-        "footer-contact": "ĐT: (44) 7450954610 | Email: x@xxx.xxx"
+        "footer-contact": "ĐT: (44) 7450954610 | Email: Learnaholics@Learnaholicsclub.uk"
     },
     "th": {
-        "web-title": "สมาคมทัศนศาสตร์ - เว็บไซต์อย่างเป็นทางการ",
-        "logo": "สมาคมทัศนศาสตร์",
+        "web-title": "Learnaholics Clubs - เว็บไซต์อย่างเป็นทางการ",
+        "logo": "Learnaholics Clubs",
         "nav-home": "หน้าแรก",
         "nav-download": "ดาวน์โหลด",
         "nav-about": "เกี่ยวกับเรา",
@@ -173,11 +173,11 @@ const translations = {
         "card3-title": "หาเพื่อนและเดท",
         "card3-desc": "มุ่งมั่นที่จะขับเคลื่อนแผนการเจริญพันธุ์ของมนุษยชาติ",
         "footer-addr": "ที่อยู่: ออนไลน์",
-        "footer-contact": "โทร: (44) 7450954610 | อีเมล: x@xxx.xxx"
+        "footer-contact": "โทร: (44) 7450954610 | อีเมล: Learnaholics@Learnaholicsclub.uk"
     },
     "id": {
-        "web-title": "Masyarakat Optik Elite Wisdom - Situs Resmi",
-        "logo": "Masyarakat Optik",
+        "web-title": "Learnaholics Clubs - Situs Resmi",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Beranda",
         "nav-download": "Unduhan",
         "nav-about": "Tentang Kami",
@@ -197,11 +197,11 @@ const translations = {
         "card3-title": "Dating & Jaringan",
         "card3-desc": "Berdedikasi untuk memajukan rencana reproduksi manusia.",
         "footer-addr": "Alamat: Online",
-        "footer-contact": "Telp: (44) 7450954610 | Email: x@xxx.xxx"
+        "footer-contact": "Telp: (44) 7450954610 | Email: Learnaholics@Learnaholicsclub.uk"
     },
     "ms": {
-        "web-title": "Pertubuhan Optik Elite Wisdom - Laman Rasmi",
-        "logo": "Pertubuhan Optik",
+        "web-title": "Learnaholics Clubs - Laman Rasmi",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Utama",
         "nav-download": "Muat Turun",
         "nav-about": "Mengenai Kami",
@@ -212,7 +212,7 @@ const translations = {
         "hero-desc": "Pertubuhan kami berdedikasi untuk Du-Ka-Ceng.",
         "hero-btn": "Sertai",
         "about-title": "Mengenai Kami",
-        "about-desc": "Mempromosikan pertukaran akademik, memajukan perkongsian ilmu, dan menyokong pembangunan ahli, sebuah platform pertukaran akademik bukan untung yang terdiri daripada peminat pembelajaran sukarela.",
+        "about-desc": "Mempromosikan pertukaran akademik, memajukan perkongsian ilmu, and menyokong pembangunan ahli, sebuah platform pertukaran akademik bukan untung yang terdiri daripada peminat pembelajaran sukarela.",
         "services-title": "Perkhidmatan",
         "card1-title": "Pertukaran Akademik",
         "card1-desc": "Menyediakan persekitaran yang kondusif untuk pertukaran akademik.",
@@ -221,11 +221,11 @@ const translations = {
         "card3-title": "Janji Temu & Sosial",
         "card3-desc": "Didedikasikan untuk memajukan rancangan pembiakan manusia.",
         "footer-addr": "Alamat: Atas Talian",
-        "footer-contact": "Tel: (44) 7450954610 | E-mel: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-mel: Learnaholics@Learnaholicsclub.uk"
     },
     "fil": {
-        "web-title": "Samahang Optikal ng Elite Wisdom - Opisyal na Website",
-        "logo": "Samahang Optikal",
+        "web-title": "Learnaholics Clubs - Opisyal na Website",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Home",
         "nav-download": "Downloads",
         "nav-about": "Tungkol sa Amin",
@@ -245,11 +245,11 @@ const translations = {
         "card3-title": "Dating at Pakikipagkapwa",
         "card3-desc": "Nakatuon sa pagsusulong ng mga plano para sa populasyon ng tao.",
         "footer-addr": "Address: Online",
-        "footer-contact": "Tel: (44) 7450954610 | Email: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | Email: Learnaholics@Learnaholicsclub.uk"
     },
     "hi": {
-        "web-title": "एलीट विजडम ऑप्टिकल सोसाइटी - आधिकारिक वेबसाइट",
-        "logo": "ऑपटीकल सोसाइटी",
+        "web-title": "Learnaholics Clubs - आधिकारिक वेबसाइट",
+        "logo": "Learnaholics Clubs",
         "nav-home": "होम",
         "nav-download": "डाउनलोड",
         "nav-about": "हमारे बारे में",
@@ -269,15 +269,15 @@ const translations = {
         "card3-title": "नेटवर्किंग और संबंध",
         "card3-desc": "मानव विकास और पारिवारिक योजनाओं को बढ़ावा देने के लिए समर्पित।",
         "footer-addr": "पता: ऑनलाइन",
-        "footer-contact": "फोन: (44) 7450954610 | ईमेल: x@xxx.xxx"
+        "footer-contact": "फोन: (44) 7450954610 | ईमेल: Learnaholics@Learnaholicsclub.uk"
     },
 
     // ==========================================
     // 3. 歐美主流語系
     // ==========================================
     "en": {
-        "web-title": "Learnaholics Club - Official Website",
-        "logo": "Learnaholics Club",
+        "web-title": "Learnaholics Clubs - Official Website",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Home",
         "nav-download": "Downloads",
         "nav-about": "About Us",
@@ -297,11 +297,11 @@ const translations = {
         "card3-title": "Dating & Networking",
         "card3-desc": "Dedicated to advancing human reproduction plans.",
         "footer-addr": "Address: Online",
-        "footer-contact": "Tel: (44) 7450954610 | Email: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | Email: Learnaholics@Learnaholicsclub.uk"
     },
     "es": {
-        "web-title": "Sociedad Óptica Elite Wisdom - Sitio Oficial",
-        "logo": "Sociedad Óptica Elite",
+        "web-title": "Learnaholics Clubs - Sitio Oficial",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Inicio",
         "nav-download": "Descargas",
         "nav-about": "Sobre Nosotros",
@@ -321,11 +321,11 @@ const translations = {
         "card3-title": "Citas y Contactos",
         "card3-desc": "Dedicado a avanzar en los planes de reproducción y desarrollo humano.",
         "footer-addr": "Dirección: En Línea",
-        "footer-contact": "Tel: (44) 7450954610 | Correo: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | Correo: Learnaholics@Learnaholicsclub.uk"
     },
     "fr": {
-        "web-title": "Société Optique Elite Wisdom - Site Officiel",
-        "logo": "Société Optique Elite",
+        "web-title": "Learnaholics Clubs - Site Officiel",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Accueil",
         "nav-download": "Téléchargements",
         "nav-about": "À Propos",
@@ -345,11 +345,11 @@ const translations = {
         "card3-title": "Rencontres & Réseautage",
         "card3-desc": "Dédié à l'avancement des plans de reproduction humaine.",
         "footer-addr": "Adresse: En Ligne",
-        "footer-contact": "Tél: (44) 7450954610 | Email: x@xxx.xxx"
+        "footer-contact": "Tél: (44) 7450954610 | Email: Learnaholics@Learnaholicsclub.uk"
     },
     "de": {
-        "web-title": "Elite Wisdom Optische Gesellschaft - Offizielle Website",
-        "logo": "Optische Gesellschaft",
+        "web-title": "Learnaholics Clubs - Offizielle Website",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Startseite",
         "nav-download": "Downloads",
         "nav-about": "Über uns",
@@ -367,13 +367,13 @@ const translations = {
         "card2-title": "Kursinteraktion",
         "card2-desc": "Vermittlung neuer progressiver pädagogischer Denkansätze.",
         "card3-title": "Dating & Networking",
-        "card3-desc": "Dem Fortschritt menschlicher Fortплянування Fortpflanzungspläne gewidmet.",
+        "card3-desc": "Dem Fortschritt menschlicher Fortpflanzungspläne gewidmet.",
         "footer-addr": "Adresse: Online",
-        "footer-contact": "Tel: (44) 7450954610 | E-Mail: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-Mail: Learnaholics@Learnaholicsclub.uk"
     },
     "ru": {
-        "web-title": "Оптическое Общество Elite Wisdom - Официальный сайт",
-        "logo": "Оптическое Общество",
+        "web-title": "Learnaholics Clubs - Официальный сайт",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Главная",
         "nav-download": "Загрузки",
         "nav-about": "О нас",
@@ -393,11 +393,11 @@ const translations = {
         "card3-title": "Знакомства и нетворкинг",
         "card3-desc": "Посвящено развитию программ человеческой репродукции.",
         "footer-addr": "Адрес: Онлайн",
-        "footer-contact": "Тел: (44) 7450954610 | E-mail: x@xxx.xxx"
+        "footer-contact": "Тел: (44) 7450954610 | E-mail: Learnaholics@Learnaholicsclub.uk"
     },
     "pt": {
-        "web-title": "Sociedade Óptica Elite Wisdom - Site Oficial",
-        "logo": "Sociedade Óptica",
+        "web-title": "Learnaholics Clubs - Site Oficial",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Início",
         "nav-download": "Downloads",
         "nav-about": "Sobre Nós",
@@ -417,11 +417,11 @@ const translations = {
         "card3-title": "Namoro & Networking",
         "card3-desc": "Dedicado ao avanço dos planos de reprodução humana.",
         "footer-addr": "Endereço: Online",
-        "footer-contact": "Tel: (44) 7450954610 | E-mail: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-mail: Learnaholics@Learnaholicsclub.uk"
     },
     "it": {
-        "web-title": "Società Ottica Elite Wisdom - Sito Ufficiale",
-        "logo": "Società Ottica",
+        "web-title": "Learnaholics Clubs - Sito Ufficiale",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Home",
         "nav-download": "Download",
         "nav-about": "Chi Siamo",
@@ -441,11 +441,11 @@ const translations = {
         "card3-title": "Incontri & Networking",
         "card3-desc": "Dedicato al progresso dei piani di riproduzione umana.",
         "footer-addr": "Indirizzo: Online",
-        "footer-contact": "Tel: (44) 7450954610 | Email: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | Email: Learnaholics@Learnaholicsclub.uk"
     },
     "nl": {
-        "web-title": "Elite Wisdom Optische Vereniging - Officiële Website",
-        "logo": "Optische Vereniging",
+        "web-title": "Learnaholics Clubs - Officiële Website",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Home",
         "nav-download": "Downloads",
         "nav-about": "Over Ons",
@@ -465,11 +465,11 @@ const translations = {
         "card3-title": "Dating & Netwerken",
         "card3-desc": "Toegewijd aan het bevorderen van menselijke voortplantingsplannen.",
         "footer-addr": "Adres: Online",
-        "footer-contact": "Tel: (44) 7450954610 | E-mail: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-mail: Learnaholics@Learnaholicsclub.uk"
     },
     "pl": {
-        "web-title": "Towarzystwo Optyczne Elite Wisdom - Strona Oficjalna",
-        "logo": "Towarzystwo Optyczne",
+        "web-title": "Learnaholics Clubs - Strona Oficjalna",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Start",
         "nav-download": "Pobieranie",
         "nav-about": "O Nas",
@@ -489,11 +489,11 @@ const translations = {
         "card3-title": "Randki i Networking",
         "card3-desc": "Dedykowane wspieraniu planów reprodukcji ludzkiej.",
         "footer-addr": "Adres: Online",
-        "footer-contact": "Tel: (44) 7450954610 | E-mail: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-mail: Learnaholics@Learnaholicsclub.uk"
     },
     "uk": {
-        "web-title": "Оптичне Товариство Elite Wisdom - Офіційний сайт",
-        "logo": "Оптичне Товариство",
+        "web-title": "Learnaholics Clubs - Офіційний сайт",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Головна",
         "nav-download": "Завантаження",
         "nav-about": "Про Нас",
@@ -513,15 +513,15 @@ const translations = {
         "card3-title": "Знайомства та Нетворкінг",
         "card3-desc": "Спрямовано на розвиток програм репродукції людини.",
         "footer-addr": "Адреса: Онлайн",
-        "footer-contact": "Тел: (44) 7450954610 | E-mail: x@xxx.xxx"
+        "footer-contact": "Тел: (44) 7450954610 | E-mail: Learnaholics@Learnaholicsclub.uk"
     },
 
     // ==========================================
     // 4. 北歐語系
     // ==========================================
     "sv": {
-        "web-title": "Elite Wisdom Optiska Sällskapet - Officiell Webbplats",
-        "logo": "Optiska Sällskapet",
+        "web-title": "Learnaholics Clubs - Officiell Webbplats",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Hem",
         "nav-download": "Nedladdningar",
         "nav-about": "Om Oss",
@@ -541,11 +541,11 @@ const translations = {
         "card3-title": "Dating & Nätverk",
         "card3-desc": "Dedikerad till att främja mänskliga reproduktionsplaner.",
         "footer-addr": "Adress: Online",
-        "footer-contact": "Tel: (44) 7450954610 | E-post: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-post: Learnaholics@Learnaholicsclub.uk"
     },
     "no": {
-        "web-title": "Elite Wisdom Optisk Selskap - Offisiell Nettside",
-        "logo": "Optisk Selskap",
+        "web-title": "Learnaholics Clubs - Offisiell Nettside",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Hjem",
         "nav-download": "Nedlastinger",
         "nav-about": "Om Oss",
@@ -565,11 +565,11 @@ const translations = {
         "card3-title": "Dating & Nettverk",
         "card3-desc": "Dedikert til å fremme menneskelige reproduksjonsplaner.",
         "footer-addr": "Adresse: Online",
-        "footer-contact": "Tel: (44) 7450954610 | E-post: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-post: Learnaholics@Learnaholicsclub.uk"
     },
     "da": {
-        "web-title": "Elite Wisdom Optisk Selskab - Officiel Hjemmeside",
-        "logo": "Optisk Selskab",
+        "web-title": "Learnaholics Clubs - Officiel Hjemmeside",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Hjem",
         "nav-download": "Downloads",
         "nav-about": "Om Os",
@@ -589,11 +589,11 @@ const translations = {
         "card3-title": "Dating & Netværk",
         "card3-desc": "Dedikeret til at fremme den menneskelige reproduktionsplan.",
         "footer-addr": "Adresse: Online",
-        "footer-contact": "Tel: (44) 7450954610 | E-mail: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-mail: Learnaholics@Learnaholicsclub.uk"
     },
     "fi": {
-        "web-title": "Elite Wisdom Optinen Seura - Virallinen Verkkosivusto",
-        "logo": "Optinen Seura",
+        "web-title": "Learnaholics Clubs - Virallinen Verkkosivusto",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Koti",
         "nav-download": "Lataukset",
         "nav-about": "Meistä",
@@ -613,15 +613,15 @@ const translations = {
         "card3-title": "Treffit & Verkostoituminen",
         "card3-desc": "Omistettu ihmisen lisääntymissuunnitelmien edistämiselle.",
         "footer-addr": "Osoite: Verkossa",
-        "footer-contact": "Puh: (44) 7450954610 | Sähköposti: x@xxx.xxx"
+        "footer-contact": "Puh: (44) 7450954610 | Sähköposti: Learnaholics@Learnaholicsclub.uk"
     },
 
     // ==========================================
     // 5. 中東、東歐與其他地區
     // ==========================================
     "ar": {
-        "web-title": "جمعية الحكمة البصرية النخبوية - الموقع الرسمي",
-        "logo": "الجمعية البصرية النخبوية",
+        "web-title": "Learnaholics Clubs - الموقع الرسمي",
+        "logo": "Learnaholics Clubs",
         "nav-home": "الرئيسية",
         "nav-download": "روابط التنزيل",
         "nav-about": "عن الجمعية",
@@ -641,11 +641,11 @@ const translations = {
         "card3-title": "التعارف والتواصل",
         "card3-desc": "مكرس لدعم وتعزيز خطط التكاثر والتنمية البشرية.",
         "footer-addr": "العنوان: عبر الإنترنت",
-        "footer-contact": "هاتف: (44) 7450954610 | البريد: x@xxx.xxx"
+        "footer-contact": "هاتف: (44) 7450954610 | البريد: Learnaholics@Learnaholicsclub.uk"
     },
     "fa": {
-        "web-title": "انجمن نوری الیت ویزدوم - وب‌سایت رسمی",
-        "logo": "انجمن نوری الیت",
+        "web-title": "Learnaholics Clubs - وب‌سایت رسمی",
+        "logo": "Learnaholics Clubs",
         "nav-home": "خانه",
         "nav-download": "لینک‌های دانلود",
         "nav-about": "درباره انجمن",
@@ -665,11 +665,11 @@ const translations = {
         "card3-title": "دوستیابی و شبکه سازی",
         "card3-desc": "مختص پیشبرد و ارتقای برنامه‌های باروری نسل بشر.",
         "footer-addr": "آدرس: آنلاین",
-        "footer-contact": "تلفن: (44) 7450954610 | ایمیل: x@xxx.xxx"
+        "footer-contact": "تلفن: (44) 7450954610 | ایمیل: Learnaholics@Learnaholicsclub.uk"
     },
     "tr": {
-        "web-title": "Elite Wisdom Optik Derneği - Resmi Web Sitesi",
-        "logo": "Optik Derneği",
+        "web-title": "Learnaholics Clubs - Resmi Web Sitesi",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Anasayfa",
         "nav-download": "İndirme Linkleri",
         "nav-about": "Dernek Hakkında",
@@ -689,11 +689,11 @@ const translations = {
         "card3-title": "Arkadaşlık & Ağ Kurma",
         "card3-desc": "İnsan üreme ve gelişim planlarını ilerletmeye adanmıştır.",
         "footer-addr": "Adres: Çevrimiçi",
-        "footer-contact": "Tel: (44) 7450954610 | E-posta: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-posta: Learnaholics@Learnaholicsclub.uk"
     },
     "el": {
-        "web-title": "Οπτική Εταιρεία Elite Wisdom - Επίσημος Ιστότοπος",
-        "logo": "Οπτική Εταιρεία",
+        "web-title": "Learnaholics Clubs - Επίσημος Ιστότοπος",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Αρχική",
         "nav-download": "Σύνδεσμοι Λήψης",
         "nav-about": "Σχετικά με εμάς",
@@ -713,13 +713,13 @@ const translations = {
         "card3-title": "Γνωριμίες & Δικτύωση",
         "card3-desc": "Αφοσιωμένο στην προώθηση των σχεδίων ανθρώπινης αναπαραγωγής.",
         "footer-addr": "Διεύθυνση: Διαδικτυακά",
-        "footer-contact": "Τηλ: (44) 7450954610 | Email: x@xxx.xxx"
+        "footer-contact": "Τηλ: (44) 7450954610 | Email: Learnaholics@Learnaholicsclub.uk"
     },
     "he": {
-        "web-title": "האגודה האופטית Elite Wisdom - האתר הרשמי",
-        "logo": "האגודה האופטית",
+        "web-title": "Learnaholics Clubs - האתר הרשמי",
+        "logo": "Learnaholics Clubs",
         "nav-home": "דף הבית",
-        "nav-download": "קיشורי הורדה",
+        "nav-download": "קישורי הורדה",
         "nav-about": "אודות האגודה",
         "nav-news": "חדשות אחרונות",
         "nav-services": "שירותי חברים",
@@ -737,11 +737,11 @@ const translations = {
         "card3-title": "היכרויות ונטוורקינג",
         "card3-desc": "מוקדש לקידום תוכניות הריבוי וההמשכיות של המין האנושי.",
         "footer-addr": "כתובת: מקוון",
-        "footer-contact": "טלפון: (44) 7450954610 | דוא\"ל: x@xxx.xxx"
+        "footer-contact": "טלফোন: (44) 7450954610 | דוא\"ל: Learnaholics@Learnaholicsclub.uk"
     },
     "sw": {
-        "web-title": "Chama cha Optika cha Elite Wisdom - Tovuti Rasmi",
-        "logo": "Chama cha Optika",
+        "web-title": "Learnaholics Clubs - Tovuti Rasmi",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Nyumbani",
         "nav-download": "Viungo vya Pakua",
         "nav-about": "Kuhusu Chama",
@@ -753,7 +753,7 @@ const translations = {
         "hero-btn": "Omba Kujiunga",
         "about-title": "Kuhusu Sisi",
         "about-desc": "Kukuza kubadilishana kitaaluma, kuendeleza ushiriki wa maarifa, na kutumikia maendeleo ya wanachama, jukwaa la kubadilishana kitaaluma lisilo la faida linaloundwa na wapenzi wa kujifunza kwa hiari.",
-        "services-title": "Upeo wa Huduma",
+        "services-title": "Upeo vya Huduma",
         "card1-title": "Kubadilishana Kitaaluma",
         "card1-desc": "Kutoa mazingira wezeshi kwa ajili ya mabadilishano ya kitaaluma.",
         "card2-title": "Kozi Shirikishi",
@@ -761,11 +761,11 @@ const translations = {
         "card3-title": "Urafiki & Mitandao",
         "card3-desc": "Kimejitolea kuendeleza mipango ya uzazi wa mwanadamu.",
         "footer-addr": "Anwani: Mtandaoni",
-        "footer-contact": "Simu: (44) 7450954610 | Barua pepe: x@xxx.xxx"
+        "footer-contact": "Simu: (44) 7450954610 | Barua pepe: Learnaholics@Learnaholicsclub.uk"
     },
     "ro": {
-        "web-title": "Societatea Optică Elite Wisdom - Site Oficial",
-        "logo": "Societatea Optică",
+        "web-title": "Learnaholics Clubs - Site Oficial",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Acasă",
         "nav-download": "Linkuri Descărcare",
         "nav-about": "Despre Societate",
@@ -785,11 +785,11 @@ const translations = {
         "card3-title": "Dating & Networking",
         "card3-desc": "Dedicat promovării planurilor de reproducere și dezvoltare umană.",
         "footer-addr": "Adresă: Online",
-        "footer-contact": "Tel: (44) 7450954610 | E-mail: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-mail: Learnaholics@Learnaholicsclub.uk"
     },
     "hu": {
-        "web-title": "Elite Wisdom Optikai Társaság - Hivatalos Oldal",
-        "logo": "Optikai Társaság",
+        "web-title": "Learnaholics Clubs - Hivatalos Oldal",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Kezdőlap",
         "nav-download": "Letöltési Linkek",
         "nav-about": "A Társaságról",
@@ -809,11 +809,11 @@ const translations = {
         "card3-title": "Ismerkedés & Hálózat",
         "card3-desc": "Az emberi szaporodási és népesedési tervek előmozdításának szentelve.",
         "footer-addr": "Cím: Online",
-        "footer-contact": "Tel: (44) 7450954610 | E-mail: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-mail: Learnaholics@Learnaholicsclub.uk"
     },
     "cs": {
-        "web-title": "Optická společnost Elite Wisdom - Oficiální web",
-        "logo": "Optická společnost",
+        "web-title": "Learnaholics Clubs - Oficiální web",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Domů",
         "nav-download": "Odkazy ke stažení",
         "nav-about": "O cechu",
@@ -833,11 +833,11 @@ const translations = {
         "card3-title": "Seznamování a networking",
         "card3-desc": "Věnujeme se prosazování plánů lidské reprodukce.",
         "footer-addr": "Adresa: Online",
-        "footer-contact": "Tel: (44) 7450954610 | E-mail: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-mail: Learnaholics@Learnaholicsclub.uk"
     },
     "sk": {
-        "web-title": "Optická spoločnosť Elite Wisdom - Oficiálny web",
-        "logo": "Optická spoločnosť",
+        "web-title": "Learnaholics Clubs - Oficiálny web",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Domov",
         "nav-download": "Odkazy na stiahnutie",
         "nav-about": "O cechu",
@@ -857,11 +857,11 @@ const translations = {
         "card3-title": "Zoznamovanie a networking",
         "card3-desc": "Venujeme se presadzovaniu plánov ľudskej reprodukcie.",
         "footer-addr": "Adresa: Online",
-        "footer-contact": "Tel: (44) 7450954610 | E-mail: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-mail: Learnaholics@Learnaholicsclub.uk"
     },
     "bg": {
-        "web-title": "Оптическо дружество Elite Wisdom - Официален уебсайт",
-        "logo": "Оптическо дружество",
+        "web-title": "Learnaholics Clubs - Официален уебсайт",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Начало",
         "nav-download": "Връзки за изтегляне",
         "nav-about": "За гилдията",
@@ -881,11 +881,11 @@ const translations = {
         "card3-title": "Запознанства и контакти",
         "card3-desc": "Посветени на напредъка на плановете за човешка репродукция.",
         "footer-addr": "Адрес: Онлайн",
-        "footer-contact": "Тел: (44) 7450954610 | Имейл: x@xxx.xxx"
+        "footer-contact": "Тел: (44) 7450954610 | Имейл: Learnaholics@Learnaholicsclub.uk"
     },
     "hr": {
-        "web-title": "Optičko društvo Elite Wisdom - Službena web stranica",
-        "logo": "Optičko društvo",
+        "web-title": "Learnaholics Clubs - Službena web stranica",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Početna",
         "nav-download": "Preuzimanja",
         "nav-about": "O udruzi",
@@ -901,15 +901,15 @@ const translations = {
         "card1-title": "Akademska razmjena",
         "card1-desc": "Osiguravanje okruženja za akademsku razmjenu.",
         "card2-title": "Interakcija u tečajevima",
-        "card2-desc": "Poučavanje novih obrazovnih ideja.",
+        "card2-desc": "Poučavanje novih obrazovnih ihdeja.",
         "card3-title": "Spojevi i umrežavanje",
         "card3-desc": "Posvećeni smo unapređenju planova ljudske reprodukcije.",
         "footer-addr": "Adresa: Online",
-        "footer-contact": "Tel: (44) 7450954610 | E-mail: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-mail: Learnaholics@Learnaholicsclub.uk"
     },
     "sr": {
-        "web-title": "Optičko društvo Elite Wisdom - Zvanični veb-sajt",
-        "logo": "Optičko društvo",
+        "web-title": "Learnaholics Clubs - Zvanični veb-sajt",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Početna",
         "nav-download": "Preuzimanja",
         "nav-about": "O udruženju",
@@ -920,20 +920,20 @@ const translations = {
         "hero-desc": "Naše društvo je u potpunosti posvećeno Du-Ka-Ceng.",
         "hero-btn": "Zahtev za članstvo",
         "about-title": "O nama",
-        "about-desc": "Promisanje akademske razmene, unapređenje deljenja znanja i služenje razvoju članova; neprofitna platforma za akademsku razmenu sastavljena od dobrovoljnih ljubitelja učenja.",
+        "about-desc": "Promisanje akademske razmene, unapređenje deljenja znanja i služenje razvoju članova; neprofitna platforma za akademska razmenu sastavljena od dobrovoljnih ljubitelja učenja.",
         "services-title": "Opseg usluga",
         "card1-title": "Akademska razmena",
-        "card1-desc": "Obezbeđivanje okruženja za akademsku razmenu.",
+        "card1-desc": "Obezbeđivanje okruženja za akademsku razmene.",
         "card2-title": "Interakcija u kursevima",
         "card2-desc": "Poučavanje novih obrazovnih ideja.",
         "card3-title": "Upoznavanje i umrežavanje",
         "card3-desc": "Posvećeni smo unapređenju planova ljudske reprodukcije.",
         "footer-addr": "Adresa: Online",
-        "footer-contact": "Tel: (44) 7450954610 | E-mail: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-mail: Learnaholics@Learnaholicsclub.uk"
     },
     "sl": {
-        "web-title": "Optično društvo Elite Wisdom - Uradna spletna stran",
-        "logo": "Optično društvo",
+        "web-title": "Learnaholics Clubs - Uradna spletna stran",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Domov",
         "nav-download": "Povezave za prenos",
         "nav-about": "O cehu",
@@ -949,15 +949,15 @@ const translations = {
         "card1-title": "Akademska izmenjava",
         "card1-desc": "Zagotavljanje okolja za akademsko izmenjava.",
         "card2-title": "Interakcija v tečajih",
-        "card2-desc": "Poučevanje novih izobraževalnih idej.",
+        "card2-desc": "Poučevanje novih izobraževalnih ideg.",
         "card3-title": "Zmenki in mreženje",
         "card3-desc": "Posvečeni smo napredku načrtov za človeško reprodukcijo.",
         "footer-addr": "Naslov: Na spletu",
-        "footer-contact": "Tel: (44) 7450954610 | E-pošta: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-pošta: Learnaholics@Learnaholicsclub.uk"
     },
     "et": {
-        "web-title": "Elite Wisdom Optikaühing - Ametlik veebisait",
-        "logo": "Optikaühing",
+        "web-title": "Learnaholics Clubs - Ametlik veebisait",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Avaleht",
         "nav-download": "Allalaadimise lingid",
         "nav-about": "Gildi kohta",
@@ -977,11 +977,11 @@ const translations = {
         "card3-title": "Tutvumise ja võrgustumine",
         "card3-desc": "Pühendunud inimreproduktsiooni kavadega edasiminekule.",
         "footer-addr": "Aadress: Internetis",
-        "footer-contact": "Tel: (44) 7450954610 | E-post: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | E-post: Learnaholics@Learnaholicsclub.uk"
     },
     "lv": {
-        "web-title": "Elite Wisdom Optikas biedrība - Oficiālā mājaslapa",
-        "logo": "Optikas biedrība",
+        "web-title": "Learnaholics Clubs - Oficiālā mājaslapa",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Sākums",
         "nav-download": "Lejupielādes saites",
         "nav-about": "Par ģildi",
@@ -1001,11 +1001,11 @@ const translations = {
         "card3-title": "Iepazīšanās un tīklošanās",
         "card3-desc": "Veltīts cilvēka reprodukcijas plānu virzīšanai.",
         "footer-addr": "Adrese: Tiešsaistē",
-        "footer-contact": "Tālr: (44) 7450954610 | E-pasts: x@xxx.xxx"
+        "footer-contact": "Tālr: (44) 7450954610 | E-pasts: Learnaholics@Learnaholicsclub.uk"
     },
     "lt": {
-        "web-title": "Elite Wisdom Optikos draugija - Oficiali svetainė",
-        "logo": "Optikos draugija",
+        "web-title": "Learnaholics Clubs - Oficiali svetainė",
+        "logo": "Learnaholics Clubs",
         "nav-home": "Pradžia",
         "nav-download": "Atsisiuntimo nuorodos",
         "nav-about": "Apie gildiją",
@@ -1016,7 +1016,7 @@ const translations = {
         "hero-desc": "Mūsų draugija yra atsidavusi Du-Ka-Ceng.",
         "hero-btn": "Prašymas stoti",
         "about-title": "Apie mus",
-        "about-desc": "Akademinio keitimosi skatinimas, dalijimosi žiniomis didinimas ir narių tobulėjimo palaikymas; ne pelno siekianti akademinio keitimosi platforma, sudaryta iš savanoriškų mokymosi entuziastų.",
+        "about-desc": "Akadinio keitimosi skatinimas, dalijimosi žiniomis didinimas ir narių tobulėjimo palaikymas; ne pelno siekianti akademinio keitimosi platforma, sudaryta iš savanoriškų mokymosi entuziastų.",
         "services-title": "Paslaugų sritis",
         "card1-title": "Akadiniai mainai",
         "card1-desc": "Akademinio keitimosi aplinkos sudarymas.",
@@ -1025,6 +1025,6 @@ const translations = {
         "card3-title": "Pažintys ir tinklaveika",
         "card3-desc": "Skirta žmonių reprodukcijos planų įgyvendinimui.",
         "footer-addr": "Adresas: Internete",
-        "footer-contact": "Tel: (44) 7450954610 | El. paštas: x@xxx.xxx"
+        "footer-contact": "Tel: (44) 7450954610 | El. paštas: Learnaholics@Learnaholicsclub.uk"
     }
 };
